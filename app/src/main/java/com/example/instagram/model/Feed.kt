@@ -1,5 +1,7 @@
 package com.example.facebook.model
 
+import com.example.instagram.model.Photo
+
 class Feed {
     var post: Post? = null
     var stories:ArrayList<Story> = ArrayList<Story>()
@@ -7,7 +9,6 @@ class Feed {
 
     constructor(){
     }
-
     constructor(post: Post){
         this.post= post
     }
