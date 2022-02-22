@@ -19,6 +19,7 @@ import com.example.instagram.adapter.ViewPagerAdapter
 import com.example.instagram.model.Photo
 import com.google.android.material.imageview.ShapeableImageView
 import com.tbuonomo.viewpagerdotsindicator.DotsIndicator
+import com.tbuonomo.viewpagerdotsindicator.WormDotsIndicator
 
 
 class FeedAdapter(var context: Context, var items:ArrayList<Feed>) : RecyclerView.Adapter<RecyclerView.ViewHolder>(){
@@ -140,7 +141,7 @@ class FeedAdapter(var context: Context, var items:ArrayList<Feed>) : RecyclerVie
     class PostViewHolderMulti(context: Context,view: View) : RecyclerView.ViewHolder(view){
         var iv_profile: ShapeableImageView = view.findViewById(R.id.iv_profile)
         var viewPager: ViewPager = view.findViewById(R.id.viewPager)
-        var dotsIndicator: DotsIndicator = view.findViewById(R.id.dots_indicator)
+        var dotsIndicator: WormDotsIndicator = view.findViewById(R.id.dots_indicator)
         var tv_fullname : TextView = view.findViewById(R.id.tv_fullname)
 
     }

@@ -67,7 +67,7 @@
             android:layout_height="wrap_content"
             android:src="@mipmap/ic_send" />
 
-        <com.tbuonomo.viewpagerdotsindicator.DotsIndicator
+        <com.tbuonomo.viewpagerdotsindicator.WormDotsIndicator
             android:id="@+id/dots_indicator"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
